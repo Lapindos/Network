@@ -1,42 +1,34 @@
 # Компьютерные сети
 
-Учебный репозиторий: конспекты, презентации, расчёты подсетей и скриншоты из Cisco Packet Tracer и Wireshark.
+Учебный репозиторий. У каждого занятия есть `class` с конспектом и `homework` с описанием работы. Скриншоты лежат в `homework/screenshots`.
 
-Папки занятий повторяют структуру курса: у каждого занятия есть `class` (конспект или презентация) и `hw` (домашняя работа). Картинки лежат в `.github/assets`, проекты Packet Tracer рассчитаны на `.github/pkt`.
-
-Каталоги `homework/` и `theory/` оставлены как были. В `lesson_XX` лежат те же файлы, разложенные по темам.
+Каталог `theory/` хранит презентации, по которым собраны конспекты. В `homework/` оставлены исходные текстовые работы. Скриншоты из датированных папок перенесены к урокам.
 
 ## Занятия
 
-| № | Тема | Конспект | Домашняя работа | Исходная папка |
-| --- | --- | --- | --- | --- |
-| 1 | Проектирование сети | Нет | [Схема](lesson_01/hw/hw_01.md) | `homework/homework 16.09` (скриншот) |
-| 2 | Ethernet и Wireshark | Нет | Нет | Папка подготовлена |
-| 3 | MAC-адреса | Нет | [Дублирование MAC](lesson_03/hw/hw.md) | `homework/homework 16.09` |
-| 4 | Cisco Packet Tracer | Нет | Нет | Папка подготовлена |
-| 5 | IPv4 и подсети | [Презентация](<lesson_05/class/Ipv4 (3).pptx>) | [Расчёт](lesson_05/hw/hw.md) | `homework/homework 21.09`, `theory/` |
-| 6 | Сеть на коммутаторах и хабе | Нет | [Схема, ping и симуляция](lesson_06/hw/hw.md) | `homework/homework 23.09` |
-| 7 | Деление сети на подсети | Нет | [Расчёт](lesson_07/hw/hw.md) | `homework/homework 28.09` |
-| 8 | Основы маршрутизации | [Презентация](<lesson_08/class/маршрут.ppt>) | [Три схемы](lesson_08/hw/hw.md) | `homework/homework 30.09`, `theory/` |
-| 9 | Маршрутизация в Cisco | [Презентация](<lesson_09/class/маршрут циско.ppt>) | [Схема](lesson_09/hw/hw.md) | `homework/homework 5.10`, `theory/` |
-| 10 | DHCP | [Конспект](<lesson_10/class/Протокол DHCP.md>) | [Ссылки на конспект](lesson_10/hw/hw.md) | `homework/homework 7.10`, `theory/` |
-| 11 | TCP и UDP | [Конспект](<lesson_11/class/Транспортный уровень TCP и UDP.md>) | [Wireshark](lesson_11/hw/hw.md) | `homework/homework14.10`, `homework/homework 19.10` |
-| 12 | NAT | [Презентации](<lesson_12/class/nat теор.pptx>) | [Веб-сервер](lesson_12/hw/hw.md) | `homework/homework 12.10`, `theory/` |
-| 13 | DNS | [Презентация](<lesson_13/class/DNS (1).pptx>) | [Имя www.test.com](lesson_13/hw/hw.md) | `homework/homework14.10(2)`, `theory/` |
-
-## Дополнительные заметки
-
-- [Примеры по модели OSI](<notes/Модель OSI.md>) — из `homework/homework 14.09`
-- [Презентация «Модели»](<notes/Модели.pptx>) — из `theory/`
-
-## Проверочная и экзамен
-
-Папки `control-test/` и `exam/` созданы под те же разделы, что и в примере курса. Своих работ в них пока нет.
+| Урок | Конспект | Домашняя работа | Дата |
+| --- | --- | --- | --- |
+| 1 | [Введение](<lesson_01/class/Введение в компьютерные сети.md>) | [Нет сдачи](lesson_01/homework/README.md) | — |
+| 2 | [OSI и TCP/IP](<lesson_02/class/Модели OSI и TCP-IP.md>) | [Пять примеров по уровням](lesson_02/homework/README.md) | 14.09 |
+| 3 | [Физический уровень](<lesson_03/class/Физический уровень.md>) | [Нет сдачи](lesson_03/homework/README.md) | — |
+| 4 | [MAC-адреса](<lesson_04/class/MAC-адреса.md>) | [Дубли MAC и схема](lesson_04/homework/README.md) | 16.09 |
+| 5 | [IPv4](<lesson_05/class/Адресация IPv4.md>) | [Расчёт подсетей](lesson_05/homework/README.md) | 21.09 |
+| 6 | [Коммутаторы и хабы](<lesson_06/class/Коммутаторы хабы и проверка связи.md>) | [Схема, ping, симуляция](lesson_06/homework/README.md) | 23.09 |
+| 7 | [Деление на подсети](<lesson_07/class/Разделение сети на подсети.md>) | [Нет сдачи](lesson_07/homework/README.md) | — |
+| 8 | [Расчёт подсетей](<lesson_08/class/Расчёт подсетей.md>) | [Две сети /24](lesson_08/homework/README.md) | 28.09 |
+| 9 | [Маршрутизация](<lesson_09/class/Маршрутизация.md>) | [Три схемы](lesson_09/homework/README.md) | 30.09 |
+| 10 | [DHCP](<lesson_10/class/Протокол DHCP.md>) | [Схема и конспект DHCP](lesson_10/homework/README.md) | 5.10 и 7.10 |
+| 11 | [Маршрутизация в Cisco](<lesson_11/class/Маршрутизация в Cisco.md>) | [Нет сдачи](lesson_11/homework/README.md) | — |
+| 12 | [NAT](<lesson_12/class/Технология NAT.md>) | [Нет сдачи](lesson_12/homework/README.md) | — |
+| 13 | [NAT в Cisco](<lesson_13/class/NAT в Cisco.md>) | [Веб-сервер](lesson_13/homework/README.md) | 12.10 |
+| 14 | [TCP и UDP](<lesson_14/class/Транспортный уровень TCP и UDP.md>) | [Выжимка](lesson_14/homework/README.md) | 14.10 |
+| 15 | [DNS](<lesson_15/class/Система DNS.md>) | [Имя www.test.com](lesson_15/homework/README.md) | 14.10 |
+| 16 | [Wireshark](<lesson_16/class/Анализ трафика Wireshark.md>) | [Три захвата](lesson_16/homework/README.md) | 19.10 |
 
 ## Где лежат файлы
 
-- `lesson_XX/class` — конспекты и презентации;
-- `lesson_XX/hw` — домашние работы;
-- `.github/assets` — скриншоты и схемы;
-- `.github/pkt` — место для проектов Cisco Packet Tracer;
-- `homework/` и `theory/` — исходная раскладка, файлы оттуда не переносились и не удалялись.
+- `lesson_XX/class` — конспект;
+- `lesson_XX/homework/README.md` — что сдано;
+- `lesson_XX/homework/screenshots` — скриншоты этой работы;
+- `theory/` — презентации;
+- `homework/` — исходные тексты по датам.
