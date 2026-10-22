@@ -2,8 +2,6 @@
 
 Учебный репозиторий. У каждого занятия есть `class` с конспектом и `homework` с описанием работы. Скриншоты лежат в `homework/screenshots`.
 
-Каталог `theory/` хранит презентации, по которым собраны конспекты. В `homework/` оставлены исходные текстовые работы. Скриншоты из датированных папок перенесены к урокам.
-
 ## Занятия
 
 | Урок | Конспект | Домашняя работа | Дата |
@@ -33,35 +31,21 @@
 - `homework/README.md` — что сдано по этому уроку: условие, решение и, если конспект собран по этой работе, ссылка на файл в `class/`;
 - `homework/screenshots/` — скриншоты этой сдачи. Если снимков не было, папка держится файлом `.gitkeep`. Сам `.gitkeep` работой не считается.
 
-Темы и даты стоят в таблице выше. Отдельной датированной сдачи нет у уроков 1, 3, 7, 11 и 12: в их `homework/README.md` это записано.
+Темы и даты стоят в таблице выше. Отдельной сдачи нет у уроков 1, 3, 7, 11 и 12: в их `homework/README.md` это записано.
 
-`theory/` хранит презентации, по которым собраны конспекты. Копии в папки уроков не клались:
+Скриншоты по темам:
 
-- `Модели.pptx`
-- `Ipv4 (3).pptx`
-- `маршрут.ppt`
-- `маршрут циско.ppt`
-- `DHCP короткий (2).pptx`
-- `nat теор.pptx`
-- `nat в cisco.pptx`
-- `DNS (1).pptx`
+| Урок | Файлы в `homework/screenshots` |
+| --- | --- |
+| 4 | `network-scheme.png` |
+| 6 | `network.png`, `ping.png`, `simulation.png` |
+| 9 | `routers-and-switch.png`, `routers-and-hubs.png`, `router-triangle.png` |
+| 10 | `routing-topology.png` |
+| 13 | `nat-web-server.png` |
+| 15 | `dns-ping.png` |
+| 16 | `tcp-psh-ack.png`, `tcp-ack.png`, `udp-quic.png` |
 
-`homework/` — исходные папки по датам. Текстовые файлы остались в них. Скриншоты перенесены в `lesson_XX/homework/screenshots` и названы по теме. Папка, из которой ушли только снимки, оставлена с `.gitkeep`.
-
-| Исходная папка | Что в ней осталось | Куда перенесено |
-| --- | --- | --- |
-| `homework/homework 14.09` | `hw-14-09.md` | урок 2, скриншотов не было |
-| `homework/homework 16.09` | `hw-16-09.md` | урок 4, `network-scheme.png` |
-| `homework/homework 21.09` | `hw-21.09.md` | урок 5, скриншотов не было |
-| `homework/homework 23.09` | `.gitkeep` | урок 6: `network.png`, `ping.png`, `simulation.png` |
-| `homework/homework 28.09` | `hw-28.09.md` | урок 8, скриншотов не было |
-| `homework/homework 30.09` | `.gitkeep` | урок 9: `routers-and-switch.png`, `routers-and-hubs.png`, `router-triangle.png` |
-| `homework/homework 5.10` | `.gitkeep` | урок 10: `routing-topology.png` |
-| `homework/homework 7.10` | `dhcp.md` | урок 10, скриншотов не было |
-| `homework/homework 12.10` | `.gitkeep` | урок 13: `nat-web-server.png` |
-| `homework/homework14.10` | `tcp_udp.md` | урок 14, скриншотов не было |
-| `homework/homework14.10(2)` | `.gitkeep` | урок 15: `dns-ping.png` |
-| `homework/homework 19.10` | `.gitkeep` | урок 16: `tcp-psh-ack.png`, `tcp-ack.png`, `udp-quic.png` |
+У остальных уроков в `screenshots` только `.gitkeep`.
 
 Проверочные файлы лежат отдельно от занятий:
 
